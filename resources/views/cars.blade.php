@@ -21,11 +21,11 @@
                         </thead>
                         <tbody>
                             <tr class="odd:bg-white even:bg-slate-50">
-                                <td>1</td>
-                                <td>12356</td>
-                                <td>Поло</td>
-                                <td>Тоёта</td>
-                                <td>Колёса ппшоменять</td>
+                                <td>$report->id</td>
+                                <td>$report->number</td>
+                                <td>$report->model</td>
+                                <td>$report->make</td>
+                                <td>$report->problem</td>
                             </tr>
                         </tbody>
                     </table>

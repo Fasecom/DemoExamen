@@ -20,15 +20,13 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <!-- @foreach ($reports as $report)
                                 <tr class="odd:bg-white even:bg-slate-50">
-                                    <td>{{$report->id}}</td>
-                                    <td>{{$report->number}}</td>
-                                    <td>{{$report->model}}</td>
-                                    <td>{{$report->make}}</td>
-                                    <td>{{$report->problem}}</td>
+                                    <td>$report->id</td>
+                                    <td>$report->number</td>
+                                    <td>$report->model</td>
+                                    <td>$report->make</td>
+                                    <td>$report->problem</td>
                                 </tr>
-                            @endforeach -->
                         </tbody>
                     </table>
                 </div>

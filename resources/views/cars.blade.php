@@ -33,6 +33,36 @@
                             </tr>
                         </tbody>
                     </table>
+                    <br>
+                    <br>
+                    <h2 class="font-semibold text-xl text-gray-800 leading-tight mt-4">
+                        {{ __('Добавить машину') }}
+                    </h2>
+                    <form>
+                         @csrf
+
+                         <!-- Email Address -->
+                         <div class="mt-4">
+                             <x-input-label for="Car" :value="__('Регестрационный номер')" />
+                             <x-text-input id="Car" class="block mt-1 w-full" type="text" name="Car" :value="old('Car')" required autofocus/>
+                             <x-input-error :messages="$errors->get('car')" class="mt-2" />
+                         </div>
+                         <div class="mt-4">
+                             <x-input-label for="Car" :value="__('Марка машины')" />
+                             <x-text-input id="Car" class="block mt-1 w-full" type="text" name="Car" :value="old('Car')" required autofocus/>
+                             <x-input-error :messages="$errors->get('car')" class="mt-2" />
+                         </div>
+                         <div class="mt-4">
+                             <x-input-label for="Car" :value="__('Модель машины')" />
+                             <x-text-input id="Car" class="block mt-1 w-full" type="text" name="Car" :value="old('Car')" required autofocus/>
+                             <x-input-error :messages="$errors->get('car')" class="mt-2" />
+                         </div>
+                         <div class="flex items-center justify-end mt-4">
+                             <x-primary-button class="ms-3">
+                                 {{ __('Добавить машину') }}
+                             </x-primary-button>
+                         </div>
+                    </form>
                 </div>
             </div>
         </div>

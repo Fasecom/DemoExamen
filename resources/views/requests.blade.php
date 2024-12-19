@@ -14,18 +14,17 @@
 
                          <!-- Email Address -->
                          <div class="mt-4">
-                             <x-input-label for="email" :value="__('Выберите машину')" />
-                             <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
-                             <x-input-error :messages="$errors->get('email')" class="mt-2" />
+                             <x-input-label for="Car" :value="__('Выберите машину')" />
+                             <x-text-input id="Car" class="block mt-1 w-full" type="text" name="Car" :value="old('Car')" required autofocus/>
+                             <x-input-error :messages="$errors->get('car')" class="mt-2" />
                          </div>
                          <div class="mt-4">
-                             <x-input-label for="email" :value="__('Опишите о проблеме')" />
-                             <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
-                             <x-input-error :messages="$errors->get('email')" class="mt-2" />
+                             <x-input-label for="problem" :value="__('Опишите о проблеме')" />
+                             <x-text-input id="problem" class="block mt-1 w-full h-28" type="text" name="problem" :value="old('problem')" required autofocus/>
                          </div>
                          <div class="flex items-center justify-end mt-4">
                              <x-primary-button class="ms-3">
-                                 {{ __('Логин') }}
+                                 {{ __('Оставить заявку') }}
                              </x-primary-button>
                          </div>
                     </form>

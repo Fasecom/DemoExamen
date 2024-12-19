@@ -27,6 +27,27 @@
                                 <td>Тоёта</td>
                                 <td>Колёса ппшоменять</td>
                             </tr>
+                            <tr class="odd:bg-white even:bg-slate-50">
+                                <td>1</td>
+                                <td>12356</td>
+                                <td>Поло</td>
+                                <td>Тоёта</td>
+                                <td>Колёса ппшоменять</td>
+                            </tr>
+                            <tr class="odd:bg-white even:bg-slate-50">
+                                <td>1</td>
+                                <td>12356</td>
+                                <td>Поло</td>
+                                <td>Тоёта</td>
+                                <td>Колёса ппшоменять</td>
+                            </tr>
+                            <tr class="odd:bg-white even:bg-slate-50">
+                                <td>1</td>
+                                <td>12356</td>
+                                <td>Поло</td>
+                                <td>Тоёта</td>
+                                <td>Колёса ппшоменять</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>

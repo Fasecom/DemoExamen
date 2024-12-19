@@ -45,4 +45,14 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    
+    public function requestsCar()
+    {
+        return $this->hasMany(RequestsCar::class);
+    }
+    public function car()
+    {
+        return $this->hasMany(Car::class);
+    }
 }

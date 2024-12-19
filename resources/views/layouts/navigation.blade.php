@@ -17,6 +17,16 @@
                         {{ __('Заявки') }}
                     </x-nav-link>
                 </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('cars')" :active="request()->routeIs('cars')">
+                        {{ __('Регестрация машины') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('requests')" :active="request()->routeIs('requests')">
+                        {{ __('Регестрация на ремонт') }}
+                    </x-nav-link>
+                </div>
             </div>
 
             <!-- Settings Dropdown -->

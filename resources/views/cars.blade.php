@@ -14,18 +14,22 @@
                             <tr >
                                 <th>№</th>
                                 <th>Регистрационный номер</th>
-                                <th>Модель</th>
                                 <th>Марка</th>
-                                <th>Описание проблемы</th>
+                                <th>Модель</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr class="odd:bg-white even:bg-slate-50">
-                                <td>$report->id</td>
-                                <td>$report->number</td>
-                                <td>$report->model</td>
-                                <td>$report->make</td>
-                                <td>$report->problem</td>
+                                <td>1</td>
+                                <td>12356</td>
+                                <td>Тоёта</td>
+                                <td>Поло</td>
+                            </tr>
+                            <tr class="odd:bg-white even:bg-slate-50">
+                                <td>2</td>
+                                <td>21354</td>
+                                <td>Ауди</td>
+                                <td>q8</td>
                             </tr>
                         </tbody>
                     </table>

@@ -22,6 +22,13 @@ Route::get('/', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+Route::get('/cars', function () {
+    return view('cars');
+})->middleware(['auth', 'verified'])->name('cars');
+
+Route::get('/requests', function () {
+    return view('requests');
+})->middleware(['auth', 'verified'])->name('requests');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
